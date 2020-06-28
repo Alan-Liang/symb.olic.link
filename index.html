@@ -3,154 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="styles/base.css" rel="stylesheet" type="text/css">
   <title>Symbolic Link | Alan Liang</title>
   <style>
-  /* reset */
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  img { border: none; }
-  table { border-collapse: collapse; }
-  a { text-decoration: none; }
-  a:hover, a:active, a:focus { text-decoration: underline; }
-
-  body {
-    padding: 16px;
-    min-height: 100vh;
-    text-align: center;
-    background-color: #fcfffc;
-    color: #222;
-    border-top: 4px solid #56d66f;
-  }
-  main {
-    padding-top: 64px;
-    text-align: start;
-    display: inline-block;
-    max-width: 1080px;
-  }
-
-  blockquote { padding-left: 2rem; position: relative; }
-  blockquote::before {
-    content: '“';
-    position: absolute;
-    font-size: 3rem;
-    line-height: 3.125rem;
-    font-weight: 400;
-    right: calc(100% - 1.75rem);
-    top: 0;
-    color: rgba(0, 0, 255, .5);
-  }
-
-  h1, h2, h3, h4, h5, h6, main, .subtitle1, .subtitle2, .body2, caption, button, .button, .overline {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-family: Roboto, sans-serif;
-    text-decoration: inherit;
-    text-transform: inherit;
-  }
-  h1 {
-    font-size: 4.25rem;
-    line-height: 5rem;
-    padding: 2rem 0;
-    font-weight: 200;
-    letter-spacing: -0.015625em;
-    position: relative;
-  }
-  h2 {
-    font-size: 3.25rem;
-    line-height: 3.25rem;
-    padding: 1.25rem 0;
-    font-weight: 200;
-    letter-spacing: -0.0083333333em;
-  }
-  h3 {
-    font-size: 3rem;
-    line-height: 3.125rem;
-    font-weight: 400;
-    letter-spacing: normal;
-  }
-  h4 {
-    font-size: 2.125rem;
-    line-height: 2.5rem;
-    font-weight: 400;
-    letter-spacing: 0.0073529412em;
-  }
-  h5 {
-    font-size: 1.5rem;
-    line-height: 2rem;
-    font-weight: 400;
-    letter-spacing: normal;
-  }
-  h6 {
-    font-size: 1.25rem;
-    line-height: 2rem;
-    font-weight: 500;
-    letter-spacing: 0.0125em;
-  }
-  .subtitle1 {
-    font-size: 1rem;
-    line-height: 1.75rem;
-    font-weight: 400;
-    letter-spacing: 0.009375em;
-  }
-  .subtitle2 {
-    font-size: 0.875rem;
-    line-height: 1.375rem;
-    font-weight: 500;
-    letter-spacing: 0.0071428571em;
-  }
-  main {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    font-weight: 400;
-    letter-spacing: 0.03125em;
-  }
-  p { padding: 0.25rem 0; }
-  .body2 {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    font-weight: 400;
-    letter-spacing: 0.0178571429em;
-  }
-  caption {
-    font-size: 0.75rem;
-    line-height: 1.25rem;
-    font-weight: 400;
-    letter-spacing: 0.0333333333em;
-  }
-  button, .button {
-    font-size: 0.875rem;
-    line-height: 2.25rem;
-    font-weight: 500;
-    letter-spacing: 0.0892857143em;
-    text-transform: uppercase;
-  }
-  .overline {
-    font-size: 0.75rem;
-    line-height: 2rem;
-    font-weight: 500;
-    letter-spacing: 0.1666666667em;
-    text-transform: uppercase;
-  }
-
-  @media (prefers-color-scheme:dark) {
-    body {
-      background-color: #121212;
-      color: rgba(255, 255, 255, .8)
+    @media (min-width: 1280px) {
+      h1 { position: relative; }
+      #symlink-icon {
+        position: absolute;
+        right: 101%;
+        top: 3rem;
+      }
     }
-    blockquote::before { color: rgba(127, 127, 255, .6); }
-  }
+    #symlink-circle { fill: #252a35; }
+    #simlink-arrow { fill: #fff; }
+    @media (prefers-color-scheme: dark) {
+      #symlink-circle { fill: #fff; }
+      #simlink-arrow { fill: #252a35; }
+    }
   </style>
 </head>
 <body>
   <main>
-    <h1>Symbolic Link</h1>
+    <h1>
+      <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" version="1.1" viewBox="0 0 48 48" id="symlink-icon">
+        <circle id="symlink-circle" cx="24" cy="24" r="20"/>
+        <path id="simlink-arrow" style="fill-rule:evenodd" d="m 27,14 0,5 -6,0 a 8,8 0 0 0 -6.927734,4 8,8 0 0 0 0,8 8,8 0 0 0 6.529296,3.980469 A 4.0000005,4.0000005 0 0 1 17,31 4.0000005,4.0000005 0 0 1 21,27 l 6,0 0,5 11,-9 -11,-9 z"/>
+      </svg>
+      Symbolic Link
+    </h1>
     <blockquote>
       <p>In computing, a symbolic link (also symlink or soft link) is a term for any file that contains a reference to another file or directory in the form of an absolute or relative path and that affects pathname resolution.</p>
       <footer>⸺<cite><a href="https://en.wikipedia.org/wiki/Symbolic_link" rel="noopener">Symbolic link, From Wikipedia, the free encyclopedia</a></cite>, CC BY-SA 3.0</footer>
     </blockquote>
+    <p>This site aims to becoming such a link—a reference to some information and data on the internet as well as in my mind, with great flexibility but has a possibility of becoming broken or even misguiding at any time. (Also, the URL is also a kind of symbolic link.)</p>
+    <p>This idea is heavily influenced and inspired by <a href="https://ice1000.org" rel="noopener">Intermediate Representation</a>, <a href="https://typeof.net/" rel="noopener">Typeof.net</a>, and <a href="https://cr.yp.to/" rel="noopener"><code>cr.yp.to</code></a>.</p>
     <h2>About</h2>
     <p>This domain is owned by <a href="https://github.com/Alan-Liang" rel="noopener">Alan Liang</a>. Future use as a personal site is planned but not yet scheduled.</p>
     <p>If you would like to use another subdomain of <code>olic.link</code>, please let me know.</p>
-  </main>
+    <p>The symlink icon is &copy; <cite><a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme" rel="noopener">Papirus</a></cite> and me, GPLv3.</p>
+    <h2>(Symbolic?) links to me</h2>
+    <a href="https://github.com/Alan-Liang" rel="noopener">GitHub</a> | <a href="https://stackoverflow.com/users/13085717" rel="noopener">StackOverflow</a> | <a href="javascript:void alert(String.fromCharCode(97,64,107,101,101,101,114,46,110,101,116))">Email</a>
 </body>
 </html>
