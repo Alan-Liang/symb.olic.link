@@ -7,6 +7,7 @@ a:hover, a:active, a:focus { text-decoration: underline; }
 
 body {
   padding: 16px;
+  padding-bottom: 64px;
   min-height: 100vh;
   text-align: center;
   background-color: #fcfffc;
@@ -56,20 +57,23 @@ h2 {
   letter-spacing: -0.0083333333em;
 }
 h3 {
-  font-size: 3rem;
+  font-size: 2.75rem;
   line-height: 3.125rem;
-  font-weight: 400;
+  padding: 1rem 0;
+  font-weight: 200;
   letter-spacing: normal;
 }
 h4 {
   font-size: 2.125rem;
   line-height: 2.5rem;
+  padding: 0.75rem 0;
   font-weight: 400;
   letter-spacing: 0.0073529412em;
 }
 h5 {
   font-size: 1.5rem;
   line-height: 2rem;
+  padding: 0.5rem 0;
   font-weight: 400;
   letter-spacing: normal;
 }
@@ -133,4 +137,11 @@ button, .button {
   blockquote::before { color: rgba(127, 127, 255, .6); }
   a { color: #3391ff; }
   a:visited { color: #cc91ff; }
+}
+
+@media (min-width: 1500px) {
+  main {
+    display: block;
+    margin-left: 194px;
+  }
 }
