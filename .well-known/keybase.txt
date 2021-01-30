@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/alanliang
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://symb.olic.link
+  * I am alanliang (https://keybase.io/alanliang) on keybase.
+  * I have a public key with fingerprint 4A5D 6C42 3FA1 99D5 F63D  18D2 04A8 AB8E 2021 0901
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101f246d2e534d7948c589e599a81ce7f97895e5b3cc0f1bdb8dfbea85e940340490a",
+      "fingerprint": "4a5d6c423fa199d5f63d18d204a8ab8e20210901",
+      "host": "keybase.io",
+      "key_id": "04a8ab8e20210901",
+      "kid": "0101f246d2e534d7948c589e599a81ce7f97895e5b3cc0f1bdb8dfbea85e940340490a",
+      "uid": "0705bd78fe64d88a1294ef383c717819",
+      "username": "alanliang"
+    },
+    "service": {
+      "hostname": "symb.olic.link",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1611994199,
+  "expire_in": 157680000,
+  "prev": "7f665f5c0b550c7fc4ec09f21789abe7df146cc0505f627466628b10e2370fdf",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUntQVFUcZhFq2AEtFGZnmhSvoAU7y7l37+PcNR6SyjMGcRLNFO7jXLix3F12
+V2AhRqMCtxSVwkoTwxQM26GpfGKiTiAOOQUT4OgilcUI1jQBsoTj0L2pf/VvZ+bM
+mfM73/ed7/edszdsXoBeF3T8RH3U0hCdrneMDyiIWMRVYbxNdGOWKqwY/bsgq4ic
+rvxiWcQsGMABLhEkLRKIMpMiw5JQoCCLKJblIC4gRmIZyFKI4s2CACScF3koSjzi
+IIVYEphJQLKAw4yYJCuFyGF3yIpLlSU5SqQFkjBLHM6yIiXRZhGHIgFIDnI8RAQg
+cMACXCUW2ZwaQzXHc05kkm1qTd3kP7T3X/z/7HvbQzkGULzIQAnRpAghhxMsiSQz
+NAsMzkCc1YBO5FC4EqSiOSunWGVOKcSqjZhaLpMFpCWrtfII4nSX8CabVRZMVlkp
+Vul2h81lE2xW9azI5bI7LRrX5bZr4HLE5z+SyedlRVSjVBllyOGUbQpmwVWk4JI1
+XZzG1TxJdRoxVGGXHShf1hAUQ0OgDu0eVKZKMhJNb6YkSgA8RQGBkQQSCYCVCLUd
+luMRI0o4SavRUEB9HIIhaZomII8DRJgZIIkSpnVWqtgwC6n65Aq1nuRChXNtcyCs
+Wu8JNAcF6PQBz0YuDcrYYk1Jav5oYDrB0P/4+wUHan8vQB/y1OPKWMyCufXHvvfJ
+O8fi7q37/IfSeVvX6ltXxJXiicbbJ899faO1rzuhJa1OWGVkQ6YSlsR9unh/9vmU
+E7sihir2tUoVw09eCQ9Wgok9lRlDz1UcjJu59QVz2ASIfeOJUlpE15Ysy7tj59eN
+Z2XHNG1ovOmITk30W78cyv09DpYdGw0rmBJfZW/f6+7MMAbuojy5OT2ZV1fUv10z
+2/znIsPujJUHRk1RV/eEPois9cZvpK95a9/xgRsLQe9UsXd69QHv3yOvLwxP/eM7
+nYVsXtBxfxwGRocKR0rPnXqpPbT+q6d986fr+nbO+I/Wbgqb+Kv8tCd9+yBvf5BN
+V51p/LampcN3tqgy+DJrML48f+YzZ2ZiZ06MvafJ17/+SGjO3ehXfkzuqGm8+MFB
+aQxvuD+ddT1+CT7KeTIrCy4tn4j146eivDh9qBuujBydzDmU+n6sp+Buaktq8i+/
+Rb5Vvva4hXvzzkljXstWstc/11We4ugYfC0i4Y1hKi9z5BNBR9b6j7YtWzPrfsI8
+4r5QXbN3+45rVnqg5LLYOMdO9HWd3lSXvvGOYZzf/cw4TGpP621INqT3+/aTTc0D
+G4YmZ4cL37vZkvbTNz1X2oie0R594+CL8cO3fnavvrDs7JrrOSObP257oQHKfSQo
+Mi1fPHnxDGcYii1b9XxSe154Z+7hoA8vRXp/rRdLd8z54T8=
+=VzId
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/alanliang
+
+==================================================================
