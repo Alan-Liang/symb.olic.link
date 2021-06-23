@@ -5,6 +5,8 @@ table { border-collapse: collapse; }
 a { text-decoration: none; }
 a:hover, a:active, a:focus { text-decoration: underline; }
 
+ol, ul { margin-left: 2em; }
+
 body {
   padding: 16px;
   padding-bottom: 64px;
@@ -101,7 +103,7 @@ main {
   font-weight: 400;
   letter-spacing: 0.03125em;
 }
-p { padding: 0.25rem 0; }
+p, li { padding: 0.25rem 0; }
 .body2 {
   font-size: 0.875rem;
   line-height: 1.25rem;
