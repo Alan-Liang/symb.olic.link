@@ -1,3 +1,6 @@
 [submodule "code-style/cpp"]
 	path = code-style/cpp
 	url = https://github.com/Alan-Liang/cppstyle
+[submodule "games/ggj22"]
+	path = games/ggj22
+	url = https://github.com/Alan-Liang/GGJ22-dist/
