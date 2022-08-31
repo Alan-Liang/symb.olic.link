@@ -1,0 +1,24 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:security@symb.olic.link
+Expires: 2025-08-31T16:00:00.000Z
+Encryption: https://keybase.io/alanliang/pgp_keys.asc
+Preferred-Languages: zh-CN, zh, en
+Canonical: https://symb.olic.link/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEE2A4blfTXLcjY1e0TrdqAkLEXESYFAmMPBGwACgkQrdqAkLEX
+ESakGRAAlTBhsfzx7oZYTN0cDWDCJchLWMKAf/7ldeQXSpf2Ak0Oj+npN38v8h2Y
+qlYmxFMAoLSBie+rOBXGmZgbsckzLMeuNqGOyl+VJsA6b6N+dvBWoQNUJVerEhDl
+vBpPOhgWUR3yHoUYdRVYDnqPt0MRKyobku1X0++kupLB8Wsc/9WI6Br3aUcAJap6
+MZvw0hNV8ukH/yh6uBMkgk1xfOqt2uZKFdfz30fSZX6NJmB3cs4SADznhhbjCxRi
+4SppFKLC94zwFfRw333cGOZs6fE5GjCcFdhVHYXzkuQr7xEjFfMoeSmueXedvwgH
+EPQcnVw+UlyaGv/GVSt634sEr9a5kCDa55hTfwfXZ/OxC+l3iZWU24Randdai778
+eBQv54zKCCxJGvd1bo7oaXCyqtI63zR8tlvJncRoeN7/SgaqkvSCvIgBS9Ll6ijk
+ekUfWBUULH4efFPrZtb788tjCeqWawUEKIpVnARWTpUExWj07q3dB9oFgEEH0olj
+TcP/H3By8VfTr18cKZPaspRME6Ho/BgfQu4KwGH6a86OJYEdW1VcIRuouSuQ+KUd
+aBtLvjmfdwondOqo77xlT+56sObBJYgy2m37AGSvxKTn5HCvpyfh/LDS1IECxAlx
+oTZpskw1S8HZAlYjo+AcUzQDm1jTKnS3GO2VCf6xxhAdVm7/fE4=
+=1OFl
+-----END PGP SIGNATURE-----
